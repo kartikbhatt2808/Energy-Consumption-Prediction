@@ -25,33 +25,3 @@ source venv/bin/activate
 pip install -r requirements.txt
 uvicorn app.main:app --reload
 ```
-
-### Docker (Production)
-```bash
-docker-compose up --build
-```
-
-## 📚 Documentation
-
-- Frontend: See `frontend/README.md`
-- Backend: See `backend/README.md`
-
-## 🛠️ Tech Stack
-
-**Frontend:**
-- React 18
-- Recharts
-- Lucide Icons
-
-**Backend:**
-- FastAPI
-- Prophet
-- XGBoost
-- SHAP
-
-**Database:**
-- PostgreSQL
-
-## 📄 License
-
-MIT License
